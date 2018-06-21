@@ -37,6 +37,8 @@
 	$handle = fopen ("php://stdin","r");
 	$choice = '1';
 	while ($choice == '1' || $choice == '2' || $choice == '3') {
+
+		//Menu selection
 		menu:
 		echo "\nSelect action";
 		echo "\n1. Create an account";
@@ -65,7 +67,6 @@
 				else if (strlen($firstName) > 256)
 					echo "\nFirst Name is too long!\n";
 			}
-			//Output of input
 
 			//Second argument
 			$lastName = '';
@@ -84,7 +85,6 @@
 				else if (strlen($lastName) > 256)
 					echo "\nLast Name is too long!\n";
 			}
-			//Output of input
 
 			//Third argument
 			$email = '';
@@ -110,7 +110,6 @@
 				else
 					echo "\nEmail is taken!\n";
 			}
-			//Output of input
 
 			//Fourth argument
 			$phoneNumber1 = '';
@@ -137,7 +136,6 @@
 				else
 					$taken = false;
 			}
-			//Output of input
 
 			//Fifth argument
 			$phoneNumber2 = '';
@@ -166,7 +164,6 @@
 				else
 					$taken = false;
 			}
-			//Output of input
 
 			//Sixth argument
 			echo "\nComment: ";
