@@ -1,0 +1,8 @@
+CREATE TABLE users (
+    firstName varchar(256) not null,
+    lastName varchar(256) not null,
+    email varchar(256) not null PRIMARY KEY,
+    phoneNumber1 varchar(256) not null,
+    phoneNumber2 varchar(256) not null,
+    comment TEXT not null
+);

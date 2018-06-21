@@ -1,0 +1,17 @@
+first and last names:
+ - John
+ - Wick
+ - AVeryLongNameThatIsNotOverTwoHundreadAndFiftySixCharactersLong
+ - A
+
+email:
+ - a@a.a
+ - AVeryLongNameThatIsNotOverTwoHundreadAndFiftySixCharactersLong@a.a
+
+phone numbers:
+ - 1234 12312345
+ - 123 12312345
+ - 12 12312345
+ - 1 12312345
+
+comment can be as long as 65,535 characters
