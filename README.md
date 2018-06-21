@@ -2,7 +2,7 @@
 
 Initial information (en):
 
-Create a simple client registration sistem. Registration should be done over the console (CLI). More on how to use PHP and CLI -http://php.net/manual/en/features.commandline.php.
+Create a simple client registration system. Registration should be done over the console (CLI). More on how to use PHP and CLI -http://php.net/manual/en/features.commandline.php.
 Inputs that need to be filled:
 firstname;lastname;email;phonenumber1;phonenumber2;comment;
 Inputs have to be written to a MySQL database or a file
